@@ -1,0 +1,11 @@
+.view1 p,
+.view1 b,
+.view1 h1{
+  color:black;
+}
+.view1 p{
+    padding: 10px;
+}
+.view1 h1{
+margin-bottom: 20px;
+}

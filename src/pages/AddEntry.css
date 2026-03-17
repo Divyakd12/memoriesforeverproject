@@ -1,0 +1,109 @@
+/* Page container */
+
+.form{
+  min-height:0vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:-10px;
+  color: black;
+}
+.form-title{
+  text-align:center;
+  margin-bottom:20px;
+  color:rgb(0, 0, 0);
+}
+/* Form box */
+
+/* .form form{
+  background:rgba(255,255,255,0.9);
+  backdrop-filter:blur(10px);
+  padding:30px;
+  border-radius:12px;
+  width:600px;
+  box-shadow:0 6px 15px rgba(0,0,0,0.2);
+} */
+ .form form{
+  background: rgba(255, 255, 255, 0.25); /* transparency */
+  backdrop-filter: blur(0px); /* glass effect */
+  -webkit-backdrop-filter: blur(10px);
+  padding:30px;
+  border-radius:12px;
+  width:550px;
+  box-shadow:0 6px 15px rgba(0,0,0,0.2);
+  color: black;
+}
+
+/* Title */
+
+.form h2{
+  text-align:center;
+  margin-bottom:20px;
+  
+}
+
+/* Inputs */
+
+.form input,
+.form textarea{
+  width:100%;
+  padding:10px;
+  margin-top:10px;
+  border-radius:6px;
+  border:1px solid #ccc;
+  font-size:14px;
+  color: black;
+}
+
+/* Textarea */
+
+.form textarea{
+  min-height:80px;
+  resize:none;
+}
+
+/* Labels */
+
+.form label{
+  margin-top:10px;
+  font-weight:100;
+  display:block;
+  color: black;
+}
+
+/* OR text */
+
+.form p{
+  text-align:center;
+  margin:10px 0;
+  font-weight:100;
+  color: black;
+
+}
+
+/* Button */
+
+.form button{
+  width:100%;
+  padding:12px;
+  margin-top:20px;
+  background:#3498db;
+  border:none;
+  border-radius:8px;
+  color:white;
+  font-size:16px;
+  cursor:pointer;
+  transition:0.2s;
+}
+
+.form button:hover{
+  background:#2980b9;
+}
+
+/* Image preview */
+
+.form img{
+  width:100%;
+  margin-top:10px;
+  border-radius:8px;
+}
